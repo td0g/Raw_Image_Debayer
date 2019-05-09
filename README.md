@@ -4,6 +4,7 @@ Script to split a raw image into its component colours
 ## Prerequisites
 
 GIMP - https://www.gimp.org/downloads/
+
 DCRaw - http://www.centrostudiprogressofotografico.it/en/dcraw/
 
 ## Instructions
