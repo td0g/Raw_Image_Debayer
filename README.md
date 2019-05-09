@@ -1,5 +1,5 @@
 # Raw_Image_Debayer
-Script to split a raw image into its component colours
+Script to split a .CR2 raw image into its component colours
 
 ## Prerequisites
 
