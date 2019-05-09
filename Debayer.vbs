@@ -13,7 +13,7 @@
 
 'Prerequisites: 
 '  GIMP (tested with 2.10)
-'  DCRAW (download link at td0g.ca/astroref, include in same folder as script)
+'  DCRAW (download from http://www.centrostudiprogressofotografico.it/en/dcraw/)
 
 '###################################################################################
 
@@ -26,11 +26,11 @@
 			
 			'List of All Usable File Extensions
 			dim fileExtList
-			fileExtList = split("cr2, crw")
+			fileExtList = split("cr2, crw")	'Currently only supports Canon RAW images
 			
 			'Parameters to call in DCRAW
-			'dcrawParams = "-d -6 -T"
-			dcrawParams = "-d -4 -T"
+			'dcrawParams = "-d -6 -T"		'BT.709 Gamma Curve 16-bit
+			dcrawParams = "-d -4 -T"		'Linear 16-bit
 			
 			
 '###################################################################################
@@ -131,7 +131,7 @@ next
 '###################################################################################
 
 if dcrawFile = "" then
-	msgbox "DCRAW.exe not found"
+	msgbox "DCRAW.exe not found" & vbNewLine & "Please download from http://www.centrostudiprogressofotografico.it/en/dcraw/"
 	Wscript.Quit
 end if
 
