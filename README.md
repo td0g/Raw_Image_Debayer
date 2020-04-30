@@ -24,3 +24,7 @@ When the script is completed, run the debayer.bat file it creates - This will us
 DCRaw's documentation can be found at https://www.cybercom.net/~dcoffin/dcraw/dcraw.1.html
 
 By default, the script makes DCRaw do a linear Gamma conversion.  This can be changed by uncommenting a line in the script.
+
+## License
+
+Software is licensed under a [GNU GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.txt)
